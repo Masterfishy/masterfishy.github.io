@@ -5,9 +5,10 @@ body {
 #head {
     display: inline-block;
     width: 75vw;
-    height: 33vh;
-    background-image: url("../images/hero.jpg");
-    background-position: bottom;
+    height: 40vh;
+    background-image: url("../images/newhero.png");
+    background-position: center;
+    background-size: 100%;
 }
 
 #head h1 {
