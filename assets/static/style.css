@@ -5,13 +5,18 @@ body {
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
 
-    #head h1 {
-        font-size: 200%;
+    body {
+        text-align: center;
+    }
+
+    li {
+        list-style: none;
     }
 
     #headshot {
-        border-radius: 50%;
+        width: 95%;
+        border-radius: 100%;
     }
 }
