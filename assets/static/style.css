@@ -1,7 +1,9 @@
 body {
-    height: 100%;
-    width: 100%;
     margin: 0;
+}
+
+#headshot {
+    width: 200px;
 }
 
 /* Mobile Styles */
@@ -16,8 +18,9 @@ body {
     }
 
     #headshot {
+        content: url("../images/heed.JPG");
         padding: 2px;
-        width: 95vw;
+        width: 75vw;
         border-radius: 100%;
     }
 }
